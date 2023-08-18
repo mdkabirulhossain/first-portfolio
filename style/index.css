@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 96px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.hire-btn {
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+    color: #FFF;
+    background-color: #FD6E0A;
+}
+
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-subtitle {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-paragraph {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.banner-btncv {
+    color: #FFF;
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+    padding: 19px 30px;
+    border: 0;
+    background-color: #FD6E0A;
+}
+
+.banner-btncontact {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
