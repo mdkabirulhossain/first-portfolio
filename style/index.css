@@ -106,6 +106,7 @@ nav ul {
 }
 
 .about {
+    height: 80px;
     margin-top: 130px;
     border-radius: 10px;
     background: #FFF8F3;
@@ -127,18 +128,216 @@ nav ul {
     margin-bottom: 30px;
     font-size: 18px;
 }
-.table{
+
+.table {
     margin-top: 30px;
-    
+
 }
-.td{
+
+.td {
     /* border: 2px solid black; */
     width: 400px;
     margin-left: 100px;
 }
-.about-info{
+
+.about-info {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
     margin-top: 30px;
+}
+
+/* What i do style */
+
+.what-i-do {
+    margin-top: 130px;
+}
+
+.what-i-do-title {
+    text-align: center;
+
+}
+
+.what-i-do-text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.skill-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill {
+    width: 267px;
+    height: 277px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
+}
+
+.skill-title {
+    margin: 20px 63px 20px 0px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skill-discription {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+/* Style of Summary */
+
+.summary {
+    margin-top: 100px;
+}
+
+.summary-title {
+    text-align: center;
+
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sumarry-container {
+    margin-top: 113px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-sub-title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.Degree-name {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.institute-name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.summary-paragraph {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+.sumarry-resume {
+    margin-right: 80px;
+}
+
+.sumarry-button {
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 18px 17px;
+    margin-left: 430px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+
+}
+
+/* Contruct Style */
+.contruct {
+    height: 780px;
+    background: #FFF8F3;
+}
+
+.contruct-container {
+    display: flex;
+    margin-top: 110px;
+    justify-content: space-between;
+}
+
+.contruct-left {
+    height: 600px;
+    width: 500px;
+    margin-left: 100px;
+    /* background-color: aqua; */
+}
+
+.contruct-right {
+    height: 600px;
+    width: 500px;
+    margin-left: 100px;
+    /* background-color: aqua; */
+}
+
+.contruct-title {
+    margin-top: 130px;
+}
+
+.contruct-paragraph {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.tr {
+    width: 461px;
+    height: 64px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.textarea {
+    width: 461px;
+    height: 180px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.contruct-button {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
