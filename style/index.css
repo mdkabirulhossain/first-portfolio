@@ -255,7 +255,7 @@ hr {
 }
 
 .sumarry-resume {
-    margin-right: 80px;
+    margin-right: 40px;
 }
 
 .sumarry-button {
@@ -289,14 +289,14 @@ hr {
 
 .contruct-left {
     height: 600px;
-    width: 500px;
+    width: 50px;
     margin-left: 100px;
     /* background-color: aqua; */
 }
 
 .contruct-right {
     height: 600px;
-    width: 500px;
+    width: 50px;
     margin-left: 100px;
     /* background-color: aqua; */
 }
