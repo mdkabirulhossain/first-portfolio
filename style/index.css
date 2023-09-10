@@ -289,14 +289,14 @@ hr {
 
 .contruct-left {
     height: 600px;
-    width: 50px;
+    width: 500px;
     margin-left: 100px;
-    /* background-color: aqua; */
+     /* background-color: aqua;  */
 }
 
 .contruct-right {
     height: 600px;
-    width: 50px;
+    width: 500px;
     margin-left: 100px;
     /* background-color: aqua; */
 }
